@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/git@github.com:shrutibakutra/personal.git/static/css/main.c33ad86a.css",
-    "main.js": "/git@github.com:shrutibakutra/personal.git/static/js/main.68d07d59.js",
-    "static/js/787.6d185335.chunk.js": "/git@github.com:shrutibakutra/personal.git/static/js/787.6d185335.chunk.js",
-    "static/media/myimg.jpeg": "/git@github.com:shrutibakutra/personal.git/static/media/myimg.cdad15314ea0d899b15b.jpeg",
-    "index.html": "/git@github.com:shrutibakutra/personal.git/index.html",
-    "main.c33ad86a.css.map": "/git@github.com:shrutibakutra/personal.git/static/css/main.c33ad86a.css.map",
-    "main.68d07d59.js.map": "/git@github.com:shrutibakutra/personal.git/static/js/main.68d07d59.js.map",
-    "787.6d185335.chunk.js.map": "/git@github.com:shrutibakutra/personal.git/static/js/787.6d185335.chunk.js.map"
+    "main.css": "/static/css/main.c33ad86a.css",
+    "main.js": "/static/js/main.74808026.js",
+    "static/js/787.6d185335.chunk.js": "/static/js/787.6d185335.chunk.js",
+    "static/media/myimg.jpeg": "/static/media/myimg.cdad15314ea0d899b15b.jpeg",
+    "index.html": "/index.html",
+    "main.c33ad86a.css.map": "/static/css/main.c33ad86a.css.map",
+    "main.74808026.js.map": "/static/js/main.74808026.js.map",
+    "787.6d185335.chunk.js.map": "/static/js/787.6d185335.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c33ad86a.css",
-    "static/js/main.68d07d59.js"
+    "static/js/main.74808026.js"
   ]
 }
