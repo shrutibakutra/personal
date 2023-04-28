@@ -14,8 +14,7 @@ export const Work = () => {
                         <div>{project.description}</div>
                     </div>
                 )
-            })
-            }
+            })}
         </div>
     )
 }

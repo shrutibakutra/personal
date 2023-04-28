@@ -3,6 +3,10 @@
   font-family: 'Inter', sans-serif;
   font-family: 'Varela Round', sans-serif;
   height: 100%;
+
+  @media only screen and (max-width: 588px) {
+    width: fit-content;
+  }
 }
 
 .App-logo {

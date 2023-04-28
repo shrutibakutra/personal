@@ -3,13 +3,13 @@ const projects =
         title: "DealMtrx(PE Connection Inc.)",
         description: <div>
             <a className="mywork__table__url" href="https://www.dealmtrx.com/">https://www.dealmtrx.com/</a>
-            <br/>
-            At the private equity company we are building a software product DealMtrx to 
-            simplify the process for Borrowers to grow and manage Lender relationships. 
-            As a team member, I am responsible for managing the Front-end part of the product 
-            and determine the structure and design of web pages. Building responsive web designs, 
+            <br />
+            At the private equity company we built a software product DealMtrx to
+            simplify the process for Borrowers to grow and manage Lender relationships.
+            As a team member, I am responsible for managing the Front-end part of the product
+            and determine the structure and design of web pages. Building responsive web designs,
             UI using ReactJS, HTML5 grid layout, CSS3 media queries
-            </div>
+        </div>
     },
     {
         title: "Snapeda CAD model",
@@ -18,7 +18,11 @@ const projects =
             <br />As a freelancer I developed the front-end for the 'one-for-all' SnapeEDA model to be implemented in their partners'
             websites via a <script /> using Google Tag Manager.\n I developed it in a way that
             it can be used by any or all future partners' of SnapEDA without any modifications
-            <br />Original SnapEDA website:https://www.snapeda.com/<br />
+            <br />Original SnapEDA website: 
+            <a className="mywork__table__url" href="https://www.rs-online.com/designspark/snapeda-parts-finder">
+                snapEDA
+            </a>
+            <br />
             Current partner using this embed:<br />
             <li>
                 <a className="mywork__table__url" href="https://www.rs-online.com/designspark/snapeda-parts-finder">
@@ -42,7 +46,6 @@ const projects =
             In addition to that, a user can like/dislike posts as well as follow/unfollow users.
         </div>
     },
-    
     {
         title: "Burger builder",
         description: <div>
