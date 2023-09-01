@@ -45,6 +45,19 @@
 }
 .main-header {
   background-color: #153f57;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    text-decoration: none;
+
+    div {
+      margin-left: 16px;
+     a {
+        text-decoration: none;
+        color: #ffff;
+     }
+    }
 }
 .main-nav {
   height: 80px;
