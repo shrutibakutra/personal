@@ -1,7 +1,4 @@
 .mywork {
-    min-height: 100vh;
-    background-color: #fff9eb;
-    padding: 0 20px;
 
     &__header {
         font-size: 50px;
@@ -12,9 +9,9 @@
         display: flex;
         padding: 50px 250px 0;
 
-        @media only screen and (max-width: 940px) {
-            padding: 32px 48px;
-
+        &__title {
+            font-weight: 800;
+            color: #163f57;
         }
 
         &__url {

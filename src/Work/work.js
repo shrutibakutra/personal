@@ -10,11 +10,12 @@ export const Work = () => {
             {projects.map((project) => {
                 return (
                     <div className="mywork__table">
-                        <div>{project.title}</div>
+                        <div className="mywork__table__title">{project.title}</div>
                         <div>{project.description}</div>
                     </div>
                 )
-            })}
+            })
+            }
         </div>
     )
 }

@@ -1,11 +1,11 @@
 .App {
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-family: 'Varela Round', sans-serif;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
 
-  @media only screen and (max-width: 588px) {
-    width: fit-content;
+  @media only screen and (max-width: 400px) {
+    width: min-content;
   }
 }
 
@@ -45,20 +45,16 @@
 }
 .main-header {
   background-color: #153f57;
-  display: flex;
-  justify-content: center;
-  height: 48px;
-  align-items: center;
-
-  div {
-    a {
-      color: #ffff;
-      text-decoration-line: none;
-      margin-right: 16px;
-    }   
-  }
 }
 .main-nav {
+  height: 80px;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
   &__item {
     color: #ffff !important;
   }
