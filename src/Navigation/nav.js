@@ -1,26 +1,11 @@
-import {
-    Navbar,
-    Nav,
-    NavItem,
-    NavLink,
-} from 'reactstrap';
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export const MainNav = () => {
     return (
         <div className='main-header'>
-            <Navbar className='main-nav'>
-                <Nav>
-                    <NavItem >
-                        <NavLink className='main-nav__item' href="/">Home</NavLink>
-                    </NavItem>
-                    <NavItem >
-                        <NavLink className='main-nav__item' href="/work">
-                            Work
-                        </NavLink>
-                    </NavItem>
-                </Nav>
-            </Navbar>
+            <div><Link exact to="/">Home</Link></div>
+            <div><Link to="/work">Work</Link></div>
         </div>
     );
 };
