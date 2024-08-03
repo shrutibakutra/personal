@@ -1,17 +1,32 @@
+$xxsScreenSize: 414px;
+$xsScreenSize: 575px;
+$smallScreenSize: 767px;
+$mediumScreenSize: 991px;
+$largeScreenSize: 1199px;
+$xlargeScreenSize: 1200px;
+
 .mywork {
+    min-height: 100vh;
+    background-color: #fff9eb;
 
     &__header {
         font-size: 50px;
         padding: 16px 0;
     }
 
+    &__sub-header {
+        @media (max-width: $smallScreenSize) {
+            font-size: 12px;
+        }
+    }
+
     &__table {
         display: flex;
         padding: 50px 250px 0;
 
-        &__title {
-            font-weight: 800;
-            color: #163f57;
+        @media (max-width: $smallScreenSize) {
+            padding: 8px;
+            display: block;
         }
 
         &__url {
@@ -24,6 +39,12 @@
             margin-top: 20px;
             text-align: right;
             margin-right: 50px;
+
+            @media (max-width: $smallScreenSize) {
+                max-width: 100%;
+                text-align: center;
+                margin-right: 8px;
+            }
         }
 
         >div:nth-of-type(2) {
@@ -31,6 +52,11 @@
             max-width: 70%;
             margin-top: 20px;
             text-align: left;
+
+            @media (max-width: $smallScreenSize) {
+                max-width: 100%;
+                text-align: center;
+            }
         }
     }
 }

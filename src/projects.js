@@ -1,11 +1,14 @@
-
 const projects =
-    [ {
-        title: "Thousandfold Tech Solutions",
+    [{
+        title: "Terrace Metrics",
         description: <div>
-            <a className="mywork__table__url" href="https://thousandfoldtech.com/">https://thousandfoldtech.com/</a>
+            <a className="mywork__table__url" href="https://ui-staging.dpuietbjbv5m.amplifyapp.com/">https://www.terracemetrics.com/</a>
             <br/>
-                As a Product Manager at Thousandfold Tech Solutions, I am responsible for shaping the strategic direction of our tech startup by defining high-level product requirements, overseeing the maintenance of our product backlog, and ensuring the effective implementation of Agile methodologies. My role involves aligning our product development efforts with our company's goals and customer needs, facilitating communication between cross-functional teams, and driving the delivery of innovative tech services that meet or exceed customer expectations
+            Terrace Metrics offers comprehensive behavioral health assessments for schools 
+                and workplaces, providing data-driven insights to support mental health and well-being.
+             As a software developer, I contributed by rebuilding the front end from design 
+             to implementation, upgrading old code to the latest standards like ES6, and conducting extensive 
+             testing and fixing to ensure the platform's reliability and performance.
             </div>
     },
         {
@@ -29,7 +32,6 @@ const projects =
             it can be used by any or all future partners' of SnapEDA without any modifications
             <br />Original SnapEDA website:https://www.snapeda.com/<br />
             Current partner using this embed:<br />
-
             <li>
                 <a className="mywork__table__url" href="https://www.rs-online.com/designspark/snapeda-parts-finder">
                     https://www.rs-online.com/designspark/snapeda-parts-finder
@@ -52,6 +54,7 @@ const projects =
             In addition to that, a user can like/dislike posts as well as follow/unfollow users.
         </div>
     },
+    
     {
         title: "Burger builder",
         description: <div>

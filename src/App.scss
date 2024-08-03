@@ -1,8 +1,10 @@
+$mediumScreenSize: 991px;
+
 .App {
   text-align: center;
   font-family: 'Inter', sans-serif;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+
 
   @media only screen and (max-width: 400px) {
     width: min-content;
@@ -47,14 +49,6 @@
   background-color: #153f57;
 }
 .main-nav {
-  height: 80px;
-
-  nav {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
-
   &__item {
     color: #ffff !important;
   }
@@ -81,4 +75,30 @@
   20% {opacity:1;}
   80% {opacity:1;}
   100% {opacity:0;}
+}
+
+.footer {
+  background-color: #153f57;
+  color: #fff;
+  padding: 16px;
+
+  &__content {
+    display: block;
+    text-align: left;
+
+    div {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #fff;
+    }
+
+    svg , i{
+      margin-right: 8px;
+    }
+    @media (max-width: $mediumScreenSize) {
+      display: block;
+    }
+  }
 }
