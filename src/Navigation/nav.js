@@ -9,7 +9,7 @@ import React from 'react';
 export const MainNav = () => {
     return (
         <div className='main-header'>
-            <Navbar className='main-nav'> 
+            <Navbar className='main-nav'>
                 <Nav>
                     <NavItem >
                         <NavLink className='main-nav__item' href="/">Home</NavLink>
