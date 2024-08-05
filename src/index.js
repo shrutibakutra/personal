@@ -5,11 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHouse } from '@fortawesome/free-solid-svg-icons';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
     <footer className='footer'>
       <div className='footer__content'>
         <div> <FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:shruti15bakutra@gmail.com">shruti15bakutra@gmail.com</a></div>

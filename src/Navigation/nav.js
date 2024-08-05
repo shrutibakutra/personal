@@ -12,11 +12,10 @@ export const MainNav = () => {
             <Navbar className='main-nav'>
                 <Nav>
                     <NavItem >
-                        <NavLink className='main-nav__item' href="/">Home</NavLink>
+                        <NavLink className='main-nav__item' href="#/">Home</NavLink>
                     </NavItem>
-
                     <NavItem >
-                        <NavLink className='main-nav__item' href="/work">
+                        <NavLink className='main-nav__item' href="#/work">
                             Work
                         </NavLink>
                     </NavItem>
