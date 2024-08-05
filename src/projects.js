@@ -26,11 +26,10 @@ const projects =
     {
         title: "Snapeda CAD model",
         description: <div>
-            <a className="mywork__table__url" href="https://shruti-test.herokuapp.com/">https://shruti-test.herokuapp.com/</a>
+            <a className="mywork__table__url" href="https://www.snapeda.com/">https://www.snapeda.com/</a>
             <br />As a freelancer I developed the front-end for the 'one-for-all' SnapeEDA model to be implemented in their partners'
             websites via a <script /> using Google Tag Manager.\n I developed it in a way that
             it can be used by any or all future partners' of SnapEDA without any modifications
-            <br />Original SnapEDA website:https://www.snapeda.com/<br />
             Current partner using this embed:<br />
             <li>
                 <a className="mywork__table__url" href="https://www.rs-online.com/designspark/snapeda-parts-finder">

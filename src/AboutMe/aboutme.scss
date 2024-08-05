@@ -5,7 +5,6 @@ $mediumScreenSize: 991px;
 $largeScreenSize: 1199px;
 $xlargeScreenSize: 1200px;
 
-
 .aboutme {
     min-height: 70vh;
     width: 100%;
@@ -24,7 +23,7 @@ $xlargeScreenSize: 1200px;
         padding: 0 30px;
         width: 60%;
         text-align: left;
-        font-size: 20px;
+        font-size: 16px;
 
         @media (max-width: $mediumScreenSize) {
             width: 100%;
