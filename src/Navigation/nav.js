@@ -14,6 +14,7 @@ export const MainNav = () => {
                     <NavItem >
                         <NavLink className='main-nav__item' href="/">Home</NavLink>
                     </NavItem>
+                    
                     <NavItem >
                         <NavLink className='main-nav__item' href="/work">
                             Work
