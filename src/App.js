@@ -15,7 +15,7 @@ function App() {
       <MainNav />
       <Router>
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route path="/" element={<AboutMe />} /> 
           <Route path="/work" element={<Work />} />
         </Routes>
       </Router>
